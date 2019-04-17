@@ -4,7 +4,7 @@
 
 Node.js
 
-[Node](http://nodejs.org/) includes npm, needed to run the project
+[Node](http://nodejs.org/) includes npm, needed to run the project. Note that node.js might need a restart of your pc.
 
     $ node --version
     v0.10.24

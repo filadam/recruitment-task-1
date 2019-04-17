@@ -14,7 +14,7 @@
 
 
 input {
-    background-color: gray;
+    background-color: #4c4c4c;
     color: lightgray;
     font-family: 'Roboto Condensed', sans-serif;
     width: 600px;
@@ -29,7 +29,7 @@ textarea {
     height: 300px;
     width: 600px;
     min-width: 200px;
-    background-color: gray;
+    background-color: #4c4c4c;
     color: lightgray;
     font-family: 'Roboto Condensed', sans-serif;
     border: none;
@@ -145,7 +145,7 @@ p3 {
     textarea {
         height: 100px;
         width: 300px;
-        background-color: gray;
+        background-color: #4c4c4c;
         color: lightgray;
         font-family: 'Roboto Condensed', sans-serif;
         border: none;
@@ -231,7 +231,7 @@ p3 {
     textarea {
         height: 100px;
         width: 300px;
-        background-color: gray;
+        background-color: #4c4c4c;
         color: lightgray;
         font-family: 'Roboto Condensed', sans-serif;
         border: none;
