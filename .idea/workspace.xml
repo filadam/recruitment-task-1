@@ -58,6 +58,8 @@
       <find>contactsub</find>
       <find>contact</find>
       <find>error</find>
+      <find>max</find>
+      <find>img</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
