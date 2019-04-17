@@ -19,7 +19,7 @@ class Header extends React.Component {
 
                         <span className="navbar-toggler-icon"></span>
                         <div className="logobutton">
-                            <img className="logo" src={logo}/>
+                            <img className="logo" src={logo} alt="zdjecie"/>
                         </div>
                     </button>
                     <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
@@ -29,7 +29,7 @@ class Header extends React.Component {
                                 className="sr-only">(current)</span></a>
                             <a className="nav-item nav-link" href="#">ABOUT</a>
                             <div className="logobutton d-none d-sm-block">
-                                <img className="logo" src={logo}/>
+                                <img className="logo" src={logo} alt="zdjecie"/>
 
                             </div>
 

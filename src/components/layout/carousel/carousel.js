@@ -2,13 +2,13 @@ import React from "react";
 import 'bootstrap/dist/css/bootstrap.css';
 import './carousel.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import carousel__item from './hexaljpg.jpg'
-import carousel__mobile from './hexalmini.jpg'
+import carouselItem from './hexaljpg.jpg'
+import carouselMobile from './hexalmini.jpg'
 
 class Carousel extends React.Component {
     render() {
         return (
-            <div className="hidden__container" src={carousel__mobile}>
+            <div className="hidden__container" src={carouselMobile}>
                 <div className="container d-none d-sm-block">
                     <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
                         <ol className="carousel-indicators">
@@ -18,13 +18,13 @@ class Carousel extends React.Component {
                         </ol>
                         <div className="carousel-inner">
                             <div className="carousel-item active">
-                                <img src={carousel__item} className="d-block w-100" alt="..."/>
+                                <img src={carouselItem} className="d-block w-100" alt="..."/>
                             </div>
                             <div className="carousel-item">
-                                <img src={carousel__item} className="d-block w-100" alt="..."/>
+                                <img src={carouselItem} className="d-block w-100" alt="..."/>
                             </div>
                             <div className="carousel-item">
-                                <img src={carousel__item} className="d-block w-100" alt="..."/>
+                                <img src={carouselItem} className="d-block w-100" alt="..."/>
                             </div>
                         </div>
                         <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button"

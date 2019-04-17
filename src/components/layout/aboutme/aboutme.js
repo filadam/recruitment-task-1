@@ -1,9 +1,7 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.css';
 import './aboutme.css'
-import 'bootstrap/dist/css/bootstrap.min.css';
 import aboutItem from './smith.gif'
-import iconfb from './icons/fb.gif'
 
 function importAll(r) {
     let images = {};

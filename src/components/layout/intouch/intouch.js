@@ -1,7 +1,6 @@
 import React from "react";
-import 'bootstrap/dist/css/bootstrap.css';
 import './intouch.css'
-import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.css';
 
 function importAll(r) {
     let images = {};
@@ -52,7 +51,8 @@ class InTouch extends React.Component {
             let lastAtPos = fields["email"].lastIndexOf('@');
             let lastDotPos = fields["email"].lastIndexOf('.');
 
-            if (!(lastAtPos < lastDotPos && lastAtPos > 0 && fields["email"].indexOf('@@') == -1 && lastDotPos > 2 && (fields["email"].length - lastDotPos) > 2)) {
+            if (!(lastAtPos < lastDotPos && lastAtPos > 0 && fields["email"].indexOf('@@') === -1
+                && lastDotPos > 2 && (fields["email"].length - lastDotPos) > 2)) {
                 formIsValid = false;
                 errors["email"] = "Email is not valid";
             }
@@ -66,11 +66,7 @@ class InTouch extends React.Component {
     contactSubmit(e) {
         e.preventDefault();
         if (this.handleValidation()) {
-            ;
-        } else {
-
         }
-
     }
 
     handleChange(field, e) {
@@ -85,7 +81,7 @@ class InTouch extends React.Component {
                 className="container touchSection"
             >
                 <form
-                    name="contactform"
+                    name="contactForm"
                     className="contactForm"
                     onSubmit={this.contactSubmit.bind(this)}
                 >
@@ -110,7 +106,7 @@ class InTouch extends React.Component {
 
                     <input
                         placeholder="Subject"
-                        maxlength="60"
+                        maxLength="60"
                     />
                     <textarea
                         placeholder="Write your message here..."
@@ -129,15 +125,15 @@ class InTouch extends React.Component {
                     </p3>
                     <div className="sider2">
                         <div className="iconTouch">
-                            <img src={images['place.gif']}/>
+                            <img src={images['place.gif']} alt="zdjecie"/>
                             <p2>Street X, 14/18 Hoth</p2>
                         </div>
                         <div className="iconTouch">
-                            <img src={images['phone.gif']}/>
+                            <img src={images['phone.gif']} alt="zdjecie"/>
                             <p2>123 456 789</p2>
                         </div>
                         <div className="iconTouch">
-                            <img src={images['mail.gif']}/>
+                            <img src={images['mail.gif']} alt="zdjecie"/>
                             <p2>vader@deathstar.com</p2>
                         </div>
                     </div>
