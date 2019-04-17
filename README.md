@@ -12,7 +12,7 @@ Node.js
     $ npm --version
     1.3.21
 
-## Instalation
+## Installation
 
     $ git clone https://github.com/filadam/zadanierekrutacyjne-1.git
     $ cd PROJEKT

@@ -2,21 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import * as serviceWorker from './serviceWorker';
-import Header from './components/layout/header/header'
-import Carousel from './components/layout/carousel/carousel'
-import About from './components/pages/aboutme/aboutme'
-import InTouch from './components/pages/intouch/intouch'
-import Footer from './components/layout/footer/footer'
-import 'bootstrap/dist/css/bootstrap.min.css';
+import App from './app'
 
 
 ReactDOM.render(
     <React.Fragment>
-    <Header />
-    <Carousel />
-    <About />
-    <InTouch />
-    <Footer />
+        <App />
     </React.Fragment>
 
 
