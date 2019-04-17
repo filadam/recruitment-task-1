@@ -50,3 +50,4 @@ Node.js
 - opracowanie wersji responsywnej; :white_check_mark:
 - osadzenie projektu w repozytorium git (github, gitlab, bitbucket, itp.); :white_check_mark:
 - użycie języka Sass do stylowania; :x:
+
