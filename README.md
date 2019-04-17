@@ -1,10 +1,10 @@
-# Zadanie rekrutacyjne
+# Recruitment task
 
-## Wymagania
+## Requirements
 
 Node.js
 
-[Node](http://nodejs.org/) zawiera także npm wymagany do odpalenia projektu
+[Node](http://nodejs.org/) includes npm, needed to run the project
 
     $ node --version
     v0.10.24
@@ -12,7 +12,7 @@ Node.js
     $ npm --version
     1.3.21
 
-## Instalacja
+## Instalation
 
     $ git clone https://github.com/filadam/zadanierekrutacyjne-1.git
     $ cd PROJEKT
@@ -33,7 +33,7 @@ Node.js
 
 - [Bootstrap](https://getbootstrap.com/)
 
-## Kryteria
+## Criteria
 
 ### Plan minimum:
 
