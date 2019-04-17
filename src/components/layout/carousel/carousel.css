@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:70px;
+    position: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .hidden__container {
+        width:375px;
+        height:400px;
+        background-image: url(./hexalmini.jpg);
+        margin-top: 50px;
+        margin-left:-4px;
+    }
+}
