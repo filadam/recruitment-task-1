@@ -37,7 +37,7 @@ Node.js
 
 ### Plan minimum:
 
-- odwzorowanie layoutu :white_check_mark:
+- odwzorowanie [layoutu](https://imagebin.ca/v/4dxT2txVphCc) :white_check_mark:
 - walidacja pól formularza za pomocą JavaScript :white_check_mark:
 1)  wszystkich pól (proszę wszędzie dać placeholder “(Required)”): pola nie mogą być puste :white_check_mark:
 2) “Email”: pole musi być poprawnym adresem e-mail :white_check_mark:
