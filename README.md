@@ -14,7 +14,7 @@ Node.js
 
 ## Installation
 
-    $ git clone https://github.com/filadam/zadanierekrutacyjne-1.git
+    $ git clone https://github.com/filadam/recruitment-task-1
     $ cd PROJEKT
     $ npm install
     
